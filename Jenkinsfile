@@ -18,7 +18,7 @@ pipeline {
         stage('End') {
             steps {
                 script{
-                    build job: pipeline-2
+                    build job: 'pipeline-2'
                 }
             }
         }
