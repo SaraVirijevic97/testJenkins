@@ -5,7 +5,7 @@ pipeline {
     {
         stage('Start') {
             steps {
-                sh 'ls'
+                echo env.owner
             }
         }
 
