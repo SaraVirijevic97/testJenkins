@@ -17,7 +17,7 @@ pipeline {
 
         stage('End') {
             steps {
-                sh 'ls'
+                build job: pipeline-2
             }
         }
     }
