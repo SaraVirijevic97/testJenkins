@@ -11,7 +11,7 @@ pipeline {
 
         stage ('Invoke_pipeline') {
             steps {
-                sh 'ls'
+                echo 'Hello world'
             }
         }
 
